@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Made Tommy Light";
+  src: url(assets/fonts/MADE-TOMMY-Regular.woff);
+}
+
+@font-face {
+  font-family: "Made Tommy Bold";
+  src: url(assets/fonts/made-tommy-bold.woff);
+}
+
+:root {
+  --text-color: #8c8c8c;
+}
+
+#root {
+  font-family: "Made Tommy Light";
+}
+
+.eQQdoY {
+  /* z-index: 0!important; */
+}
+.ewhdCu {
+  z-index: 0 !important;
+}
+
+.madeTommyDark {
+  font-family: "Made Tommy Bold";
+}
+.css-13i5fuv {
+  min-height: none;
+}
+.gSVZoG {
+  min-width: 50px !important;
+}
+@media (min-width: 901px) {
+  .css-1feee15 {
+    margin-top: 38px !important;
+    width: calc(100% - 240px) !important;
+    padding: 0px 40px 0px 66px !important;
+  }
+  .css-hyum1k-MuiToolbar-root {
+    min-height: 56px !important;
+  }
+
+  .buttons-container {
+    display: none;
+    visibility: hidden;
+  }
+  .buttons-container-contests {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media (min-width: 200px) and (max-width: 900px) {
+  .css-1feee15 {
+    width: calc(100% - 240px) !important;
+    margin-left: -10px !important;
+    margin-top: 15px !important;
+    padding: 0px 20px 0px 27px !important;
+  }
+  .css-1yfv23j-MuiPaper-root-MuiAppBar-root {
+    min-width: 100px !important ;
+  }
+  .buttons-container {
+    display: flex;
+    height: 65px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px #e6e6e6 solid;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 12px !important;
+    font-size: 12px;
+  }
+  .buttons-container-contests {
+    display: flex;
+    height: 65px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px #e6e6e6 solid;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 12px !important;
+    font-size: 12px;
+  }
+  .active-button {
+    height: 45px !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+  .nonactive-button {
+    height: 45px !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+}
+
+.css-1xucqm0-MuiPaper-root-MuiAppBar-root {
+  width: auto !important;
+}
+
+.nivyBanner {
+  background-image: url("/src/assets/client/bg-banner.jpeg");
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.nivyWeb {
+  background-image: url("/src/assets/client/nivy-mobile.jpeg");
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.aboutBanner {
+  background-image: url("/src/assets/client/about-banner.png");
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.boxShadow {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

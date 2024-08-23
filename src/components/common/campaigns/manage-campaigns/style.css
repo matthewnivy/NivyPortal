@@ -1,0 +1,226 @@
+.item11 {
+  position: absolute;
+  bottom: -142px;
+  left: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+  color: #3c3c3c;
+}
+
+.abs {
+  position: absolute;
+}
+
+.notification-preview-container {
+  margin: 4px auto;
+  position: relative;
+  height: 180px;
+  width: 100%;
+  background-color: white;
+  border-radius: 40px 40px 0px 0px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.notification-preview-inner-container {
+  position: absolute;
+  top: 30px;
+  left: 24px;
+  height: 150px;
+  width: 90%;
+  background-color: #f5f5f5;
+  border-radius: 20px 20px 0px 0px;
+  border: solid #f5f5f5;
+  border-bottom: none;
+}
+
+.notification-preview-pill-container {
+  position: absolute;
+  left: 37%;
+  top: 10px;
+  height: 50px;
+  width: 140px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: solid #fff;
+}
+
+.line {
+  position: absolute;
+  left: 47%;
+  top: 30px;
+  height: 5px;
+  width: 30px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dot {
+  position: absolute;
+  left: 55%;
+  top: 30px;
+  height: 5px;
+  width: 5px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container5 {
+  position: absolute;
+  top: 770px;
+  left: 374px;
+  height: 70px;
+  width: 320px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container5 h4 {
+  font-size: 15px;
+  color: #16227f;
+  font-weight: 500;
+  line-height: 25px;
+  position: absolute;
+  left: 10px;
+}
+
+.container5 p {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  font-size: 12px;
+  color: #8c8c8c;
+  line-height: 9px;
+}
+
+.container5 > img {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+}
+
+.buttoncover {
+  position: absolute;
+  top: 755px;
+  left: 1px;
+  height: 80px;
+  width: 485px;
+  background-color: #f9f9f9;
+}
+
+.customFileUpload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 16px 12px;
+  margin-top: 10px !important;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.submitButton {
+  margin-top: 20px;
+  background: #16227f;
+  border-radius: 10px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.submitButtonText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.noti-contents {
+  top: 45px;
+  left: 20px;
+  position: absolute;
+  background: white;
+  width: 92%;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 14px 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noti-heading {
+  color: #16227f;
+  font-size: 16px;
+}
+
+.noti-desc {
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .overlay{
+    position: absolute;
+    top: -85px;
+    right: 0px;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 0px 15px;
+    overflow: visible;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+  }
+
+  .notification-preview-inner-container {
+    position: absolute;
+    top: 30px;
+    left: 7.5%;
+    height: 150px;
+    width: 84%;
+    background-color: #f5f5f5;
+    border-radius: 20px 20px 0px 0px;
+    border: solid #f5f5f5;
+    border-bottom: none;
+  }
+  .noti-contents {
+    top: 45px;
+    left: 3.9%;
+    position: absolute;
+    background: white;
+    width: 92%;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 14px 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .notification-preview-pill-container {
+    position: absolute;
+    left: 32%;
+    top: 10px;
+    height: 50px;
+    width: 32vw;
+    max-width: 140px;
+    min-width: 100px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: solid #fff;
+  }
+  .dot {
+    margin-left: 12px;
+  }
+}

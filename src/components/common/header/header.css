@@ -1,0 +1,33 @@
+.header_text {
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 14px;
+}
+.logoStyle {
+  width: 87px;
+  height: 32px;
+}
+
+@media (max-width: 900px) {
+  .drawerDisplay {
+    display: none !important;
+  }
+  .logoStyle {
+    position: absolute;
+    top: -40px;
+    left: 40%;
+    width: 20vw;
+    margin: auto;
+  }
+  .burger_background {
+    top: 34px !important;
+    left: 3px !important;
+    border-radius: 10px !important;
+  }
+  .menubars {
+    display: block;
+  }
+  .notshow {
+    display: none;
+  }
+}

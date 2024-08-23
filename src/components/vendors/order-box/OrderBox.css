@@ -1,0 +1,214 @@
+.order-box {
+  background: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 10px;
+}
+.order-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.order-box-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.customized-card-title-l3 {
+  min-width: max-content;
+  background-color: #f6f6f6;
+}
+.customized-card-title-l3-open-order {
+  min-width: max-content;
+  background-color: rgba(55, 125, 34, 0.1) !important;
+  color: #377d22 !important;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+}
+#order-detail {
+  width: 240px !important;
+}
+/* .order-detail-box {
+  min-width: max-content;
+  background: #f6f6f6;
+  border-radius: 30px;
+  cursor: pointer;
+} */
+
+.horizontal-line {
+  height: 2px;
+  background: #d9d9d9;
+  margin-top: 25px;
+}
+.inner-order-box {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.cash-amount {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+.bread {
+  color: red;
+}
+.order-title {
+  font-size: 25px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8px;
+}
+/* .gainsboro {
+  background: #eeeeee;
+}
+
+.form-floating:not(.form-control:disabled)::before{
+  background: #eeeeee;
+} */
+
+.accordion-body {
+  background: white;
+}
+.inner-container-nametag-openbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.container-cancelcomplete-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.all-items-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.contianer-nametag-openbutton {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.refund-badge {
+  align-self: center;
+  color: #16227f;
+  width: 150px;
+  height: 40px;
+  background: rgba(22, 34, 127, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.refund-item {
+  cursor: pointer;
+  color: #16227f;
+  border: 1px solid #16227f;
+  border-radius: 45px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.manage-stock-btn {
+  background: #3c3c3c;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  min-width: 130px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-vendor-btn {
+  background: #16227f;
+  padding-left: 5px;
+  padding-right: 15px;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .edit-vendor-btn {
+    font-size: small;
+  }
+  .manage-stock-btn {
+    font-size: small;
+  }
+}
+@media (max-width: 1291px) {
+  .all-items-container {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .order-box {
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .contianer-nametag-openbutton {
+    flex: 1;
+    flex-direction: column;
+  }
+  .customized-card-title-l3-open-order {
+    width: 45px;
+    height: 20px;
+    background-color: rgba(55, 125, 34, 0.1) !important;
+    color: #377d22 !important;
+    border-radius: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    align-self: flex-start;
+  }
+  .order-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .inner-order-box {
+    flex-direction: column;
+  }
+}

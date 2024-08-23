@@ -1,0 +1,148 @@
+.manageTeam {
+  display: flex;
+}
+.customizedButtons {
+  width: 170px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.customizedCardTitle {
+  width: 170px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 575.98px) {
+  .icons {
+    width: 19px;
+    height: 19px;
+  }
+
+  .teamName {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .teamIcon {
+    width: 20px;
+    height: 12px;
+  }
+
+  .addRoster {
+    background: #399700;
+    color: #ffffff;
+    height: 70;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .teamCount {
+    background: #e7e9f2;
+    color: #16227f;
+    font-size: 12px;
+    width: 100px !important;
+  }
+
+  .mlSix {
+    margin-left: 6px;
+  }
+
+  .manageTeam {
+    margin: 10px 17px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .teamName {
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .addRoster {
+    background: #399700;
+    color: #ffffff;
+    height: 70px;
+    font-size: 17px;
+    width: 195px;
+    cursor: pointer;
+  }
+  #open-order {
+    color: #377d22;
+    background: rgba(55, 125, 34, 0.1);
+  }
+  .teamCount {
+    background: #e7e9f2;
+    color: #16227f;
+    height: 70px;
+    font-size: 35px;
+    width: 195px;
+  }
+
+  .manageTeam {
+    float: right;
+    margin-left: auto;
+  }
+  .padding {
+    padding: 0 1.5rem;
+    margin-right: 40px;
+  }
+}
+
+.rosterEntryBox {
+  border-radius: 0;
+  flex-wrap: wrap;
+}
+
+.rosterEntryBoxTwo {
+  padding-right: 5px;
+  display: inline-block;
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+.rosterEntryBoxThree {
+  color: #3c3c3c;
+  font-weight: 700;
+  font-size: 23px;
+  width: max-content;
+}
+
+.rosterEntryBoxFour {
+  color: #8c8c8c;
+  font-size: 16px;
+  width: max-content;
+}
+
+.rosterEntryBoxFive {
+  color: #8c8c8c;
+  font-size: 16px;
+  width: max-content;
+}
+
+.rosterButtonOne {
+  min-width: max-content;
+  cursor: pointer;
+  align-self: center;
+  background: #ef0000 !important;
+  width: 150px;
+}
+
+.rosterButtonTwo {
+  min-width: max-content;
+  cursor: pointer;
+  margin-right: 40px;
+  align-self: center;
+  width: 150px;
+}

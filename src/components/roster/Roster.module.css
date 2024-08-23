@@ -1,0 +1,89 @@
+.rosterBody {
+  color: black;
+  padding: 0 1.5rem;
+  padding-bottom: 41px;
+}
+
+.rosterHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+
+.center {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.OR {
+  font-weight: 400;
+  font-size: 15px;
+  color: #b3b3b3;
+}
+
+.customFileUpload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 16px 12px;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.customImageInput {
+  border: none;
+  background-color: white;
+  background-position: 17px 17px;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submitButton {
+  margin-top: 28px;
+  background: #399700;
+  border-radius: 10px;
+  height: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.submitButtonText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (min-width: 575.98px) {
+  .customImageInput {
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .rosterBody {
+    font-size: 60%;
+  }
+
+  .customImageInput {
+    min-height: 170%;
+  }
+}

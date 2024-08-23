@@ -1,0 +1,51 @@
+.customModal {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.forgotPwText {
+  color: #3c3c3c;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+.enterText {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  display: block;
+  width: 295px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8c8c8c;
+}
+
+.submitButton {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background: #16227f;
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  cursor: pointer;
+  height: 60px;
+}
+
+.submitButtonText {
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.success{
+  background-color: #399700;
+}

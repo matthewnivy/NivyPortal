@@ -1,0 +1,19 @@
+.breadcrumb-text {
+  font-size: 20px;
+}
+.breadcrumb-text-active {
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .breadcrumb-text {
+    font-size: 15px;
+  }
+  .breadcrumb-text-active {
+    font-size: 15px;
+  }
+  .breadcrumb-card {
+    margin-top: 49px;
+    margin-bottom: -23px;
+  }
+}

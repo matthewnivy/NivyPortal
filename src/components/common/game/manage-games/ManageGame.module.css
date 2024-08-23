@@ -1,0 +1,246 @@
+.customModal {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.forgotPwText {
+  color: #3c3c3c;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+.enterText {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  display: block;
+  width: 295px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8c8c8c;
+}
+
+.submitButton {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background: #16227f;
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  cursor: pointer;
+  height: 60px;
+}
+
+.submitButtonText {
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.success {
+  background-color: #399700;
+}
+.customWidth {
+  height: 60px;
+}
+
+.minW {
+  min-width: max-content;
+}
+
+.customImageInput {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 16px 12px;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 73px;
+}
+
+.center {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.OR {
+  font-weight: 400;
+  font-size: 15px;
+  color: #b3b3b3;
+}
+
+.customFileUpload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 16px 12px;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.customImageInput {
+  border: none;
+  background-color: white;
+  background-position: 17px 17px;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submitButton {
+  margin-top: 28px;
+  background: #399700;
+  border-radius: 10px;
+  height: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.event_type_text {
+  font-size: 18px;
+  color: #3c3c3c;
+}
+
+.submitButtonText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.card_event {
+  background: white;
+  border-radius: 20px;
+  border: 2px solid #bcbcbc;
+  margin-bottom: 10px;
+}
+.tableHeader_Event {
+  color: #16227f;
+  font-weight: 800;
+  font-size: 15px;
+}
+.container,
+.innerContainer,
+.upcomingHeading,
+.innerHeader,
+.item1 {
+  display: none !important;
+}
+@media (max-width: 900px) {
+  .container,
+  .innerContainer,
+  .upcomingHeading,
+  .innerHeader,
+  .item1 {
+    display: flex !important;
+  }
+  .event_type_text {
+    font-size: 14px;
+    color: #3c3c3c;
+  }
+  .card_event {
+    display: none;
+  }
+  .checkedinusers_card {
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+  min-height: 100%;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.innerContainer {
+  border: 1px solid #bcbcbc;
+  border-radius: 10px;
+  min-height: 14.6vh;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+.upcomingHeader {
+  font-size: 16px;
+  padding: 0px 0px 0px 8px;
+  font-weight: 100;
+  color: #8c8c8c;
+}
+.innerHeader {
+  font-size: 12px;
+  padding: 10px 10px 0px 10px;
+  font-weight: 100;
+  color: #3c3c3c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rewardImageDiv {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: row;
+  min-height: 2.6vh;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px 10px 5px 10px;
+  justify-content: space-between;
+  font-size: 11.5px;
+  align-items: center;
+  color: #16227f;
+  font-weight: bolder;
+  padding: 4px 10px;
+}
+.item3 {
+  color: #8c8c8c;
+}
+
+.editButton {
+  min-height: 20px;
+  max-height: 20px;
+  width: 20px;
+  background-color: #16227f;
+  border-radius: 20px;
+}
+
+.eventBoxAlignment {
+  margin-bottom: 7px;
+}
+
+.editEventRoute {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

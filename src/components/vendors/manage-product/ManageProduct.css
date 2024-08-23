@@ -1,0 +1,38 @@
+.uploadImageContainer {
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  height: 80px;
+  width: 48%;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.uploadIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #dbdbdb;
+}
+
+.productImageContainer {
+  width: 150px;
+  height: 150px;
+  background: #fdfdfd;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 23px;
+  height: 100%;
+}
+
+.crossIcon {
+  float: right;
+  padding-right: 8px;
+  padding-top: 8px;
+}

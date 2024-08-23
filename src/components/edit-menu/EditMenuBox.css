@@ -1,0 +1,71 @@
+.menu-box {
+  height: 80px;
+  background: white;
+  border-radius: 10px;
+}
+.categoryTitle {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  color: #3c3c3c;
+  margin-left: 37px;
+}
+.padding {
+  font-size: 20px;
+  width: 108.37px;
+  height: 50px;
+}
+
+.category-box {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 0 30px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.outOfStockHeader {
+  font-size: 14px;
+  line-height: 17px;
+  color: #3c3c3c;
+  min-width: max-content;
+}
+.productBox {
+  background: #f9f9f9;
+  border-radius: 10px;
+  height: 80px;
+  width: 100%;
+}
+
+.productName {
+  font-size: 20px;
+  line-height: 25px;
+  color: #3c3c3c;
+}
+
+#checkBox {
+  width: 30px;
+  height: 30px;
+}
+
+.h-80 {
+  height: 80px;
+}
+.min-h-80 {
+  min-height: 80px;
+}
+.stockItemOption {
+  margin-left: auto;
+  width: 93%;
+  margin-top: 10px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.stockItemOptionHeader {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  color: #000000;
+  margin-left: 37px;
+}

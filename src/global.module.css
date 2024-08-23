@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.navbar {
+  height: 120px;
+}
+
+.flexBox {
+  display: flex;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+.justifyCenter {
+  justify-content: center;
+}
+
+.itemsCenter {
+  align-items: center;
+}
+
+.logoStyle {
+  margin-left: 64px;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.mainBody {
+  background-color: #f6f6f6;
+  min-height: 100vh;
+}
+
+.marginYAuto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.welcomeText {
+  font-weight: 900;
+  font-size: 40px;
+  color: #16227f;
+}
+
+.signIn {
+  font-size: 30px;
+  color: #8c8c8c;
+}
+
+.formLabel {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.textInput {
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.loginInputs {
+  width: 720px;
+}
+
+.customCheckBox {
+  border-radius: 13px !important;
+  height: 42px;
+  width: 42px;
+  margin-bottom: 15px;
+}
+.keepmeloggedin {
+  font-size: 15.7px;
+  white-space: nowrap;
+  position: relative;
+  left: 50px;
+}
+
+.submitButton {
+  background: #16227f;
+  border-radius: 10px;
+  height: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: -15px;
+}
+
+.submitButtonText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.resetPw {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10.7%;
+}
+
+.resetButton {
+  color: #16227f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.errorInput {
+  border-color: red;
+}
+
+.errorText {
+  color: red;
+  position: absolute;
+  width: 50%;
+  font-size: 12px;
+}
+
+.verticalAlign {
+  white-space: nowrap;
+  line-height: 45px;
+}
+
+/* *********SMALL SCREENS ******** */
+
+@media (max-width: 768px) {
+  .mainBody {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .navbar {
+    height: 50px;
+  }
+  .logoStyle {
+    margin: auto;
+    height: 20px;
+    width: 100px;
+  }
+  .welcomeText {
+    font-size: 19px;
+    margin-top: -20rem;
+  }
+
+  .signIn {
+    font-size: 15px;
+  }
+
+  .formLabel {
+    font-size: 13px;
+    margin-left: 2px;
+    position: relative;
+    top: 10px;
+  }
+  .customCheckBox {
+    height: 35px;
+    width: 35px;
+    margin-left: 11px;
+  }
+  .keepmeloggedin {
+    font-size: 13px;
+    left: 54px;
+  }
+
+  .loginInputs {
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    position: relative;
+  }
+
+  .textInput {
+    height: 50px;
+  }
+  .errorText {
+    width: 60%;
+    font-size: 12px;
+    line-height: 3px;
+  }
+
+  .submitButton {
+    height: 50px;
+    width: 100%;
+  }
+
+  .submitButtonText {
+    font-weight: lighter;
+    font-size: 15px;
+  }
+
+  .resetPw {
+    position: relative;
+    right: -50px;
+    top: -18px;
+    font-size: 13px;
+  }
+
+  .resetButton {
+    position: relative;
+    top: 18px;
+    right: 158px;
+  }
+}
+
+/* ********TABLET AND LAPTOP********** */
+
+@media (min-width: 769px) and (max-width: 1439px) {
+  .navbar {
+    height: 70px;
+  }
+
+  .logoStyle {
+    height: 50px;
+    width: 120px;
+  }
+
+  .welcomeText {
+    font-size: 25px;
+    margin-top: -5rem;
+  }
+
+  .signIn {
+    font-size: 20px;
+  }
+
+  .formLabel {
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    top: 8px;
+  }
+
+  .textInput {
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+  }
+
+  .loginInputs {
+    margin-top: -10px;
+  }
+  .keepmeloggedin {
+    font-size: 16.7px;
+    top: -45px !important;
+  }
+
+  .submitButton {
+    margin-top: -20px;
+  }
+
+  .submitButtonText {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .resetPw {
+    padding-top: 20px;
+    padding-bottom: 11%;
+  }
+}
